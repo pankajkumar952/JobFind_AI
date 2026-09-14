@@ -1,0 +1,54 @@
+<svg width="1000" height="1400" viewBox="0 0 1000 1400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rbase" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1018"/>
+      <stop offset="100%" stop-color="#151b28"/>
+    </linearGradient>
+    <radialGradient id="rg1" cx="80%" cy="10%" r="50%">
+      <stop offset="0%" stop-color="#64748b" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#64748b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rg2" cx="15%" cy="90%" r="55%">
+      <stop offset="0%" stop-color="#d97706" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="areaFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1400" fill="url(#rbase)"/>
+  <rect width="1000" height="1400" fill="url(#rg1)"/>
+  <rect width="1000" height="1400" fill="url(#rg2)"/>
+
+  <!-- floating card -->
+  <g transform="translate(160,420)">
+    <rect width="680" height="220" rx="18" fill="#1e293b" stroke="#33415560"/>
+    <rect x="28" y="28" width="160" height="14" rx="5" fill="#94a3b8" opacity="0.6"/>
+    <rect x="28" y="56" width="110" height="30" rx="7" fill="#fbbf24"/>
+    <polyline points="28,170 110,140 190,155 270,110 350,130 430,80 510,100 590,60 650,75"
+      fill="none" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="28,170 110,140 190,155 270,110 350,130 430,80 510,100 590,60 650,75 650,200 28,200"
+      fill="url(#areaFade)"/>
+  </g>
+
+  <!-- radial / donut motif -->
+  <g transform="translate(500,850)">
+    <circle r="140" fill="none" stroke="#334155" stroke-width="28"/>
+    <circle r="140" fill="none" stroke="#f59e0b" stroke-width="28" stroke-dasharray="440 880" stroke-linecap="round" transform="rotate(-90)"/>
+    <circle r="140" fill="none" stroke="#64748b" stroke-width="28" stroke-dasharray="220 880" stroke-dashoffset="-440" stroke-linecap="round" transform="rotate(-90)"/>
+  </g>
+
+  <!-- scattered dots -->
+  <g fill="#f59e0b">
+    <circle cx="200" cy="1080" r="5" opacity="0.8"/>
+    <circle cx="260" cy="1120" r="4" opacity="0.6"/>
+    <circle cx="760" cy="300" r="5" opacity="0.7"/>
+    <circle cx="820" cy="350" r="4" opacity="0.5"/>
+  </g>
+  <g fill="#94a3b8">
+    <circle cx="150" cy="300" r="4" opacity="0.6"/>
+    <circle cx="840" cy="1080" r="5" opacity="0.6"/>
+    <circle cx="780" cy="1150" r="4" opacity="0.5"/>
+  </g>
+</svg>

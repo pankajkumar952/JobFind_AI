@@ -1,0 +1,46 @@
+<svg width="1000" height="1400" viewBox="0 0 1000 1400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="abase" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1018"/>
+      <stop offset="100%" stop-color="#171d2b"/>
+    </linearGradient>
+    <radialGradient id="ag1" cx="20%" cy="15%" r="55%">
+      <stop offset="0%" stop-color="#d97706" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ag2" cx="85%" cy="85%" r="55%">
+      <stop offset="0%" stop-color="#475569" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#475569" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lineFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1400" fill="url(#abase)"/>
+  <rect width="1000" height="1400" fill="url(#ag1)"/>
+  <rect width="1000" height="1400" fill="url(#ag2)"/>
+
+  <!-- floating orbit rings -->
+  <g stroke="#f59e0b" stroke-opacity="0.18" fill="none" stroke-width="1.5">
+    <circle cx="500" cy="700" r="220"/>
+    <circle cx="500" cy="700" r="320"/>
+    <circle cx="500" cy="700" r="420"/>
+  </g>
+  <g stroke="#94a3b8" stroke-opacity="0.15" fill="none" stroke-width="1.5">
+    <circle cx="500" cy="700" r="270"/>
+    <circle cx="500" cy="700" r="370"/>
+  </g>
+
+  <!-- ascending bars motif -->
+  <g>
+    <rect x="360" y="820" width="34" height="120" rx="6" fill="#475569" opacity="0.8"/>
+    <rect x="404" y="770" width="34" height="170" rx="6" fill="#64748b" opacity="0.85"/>
+    <rect x="448" y="700" width="34" height="240" rx="6" fill="#f59e0b"/>
+    <rect x="492" y="640" width="34" height="300" rx="6" fill="#fbbf24"/>
+    <rect x="536" y="720" width="34" height="220" rx="6" fill="#64748b" opacity="0.85"/>
+    <rect x="580" y="780" width="34" height="160" rx="6" fill="#475569" opacity="0.8"/>
+  </g>
+
+  <rect x="360" y="620" width="254" height="4" fill="url(#lineFade)"/>
+</svg>
