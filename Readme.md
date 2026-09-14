@@ -8,6 +8,10 @@
 
 <br>
 
+### 👨‍💻 Developed & Maintained by **Er. Pankaj Kumar**
+
+<br>
+
 ### 🌐 Live Demo
 
 **👉 https://jobfind-ai-1sk7.onrender.com/**
@@ -39,7 +43,7 @@ The platform provides a SaaS-style interface where users can explore:
 - 🤖 AI-powered career insights
 - 📊 Interactive analytics dashboards
 
-The project is designed as a **portfolio-grade full-stack product concept**, with a scalable frontend architecture and planned backend services for authentication, APIs, databases, and real-time analytics.
+The project is designed as a **portfolio-grade SaaS product**, with a scalable frontend architecture and planned backend services for authentication, APIs, databases, and real-time analytics.
 
 ---
 
@@ -406,7 +410,7 @@ The API layer can later be connected to PostgreSQL and Redis to support persiste
 
 # 🗄️ Database Architecture — Planned
 
-### Users
+## Users
 
 ```text
 id
@@ -416,7 +420,7 @@ password
 created_at
 ```
 
-### Jobs
+## Jobs
 
 ```text
 id
@@ -429,7 +433,7 @@ skills
 work_type
 ```
 
-### Skills
+## Skills
 
 ```text
 id
@@ -438,7 +442,7 @@ demand_score
 growth_percentage
 ```
 
-### Companies
+## Companies
 
 ```text
 id
@@ -473,11 +477,11 @@ average_salary
 
 # 🚀 Deployment
 
-## Current Live Deployment
+## 🌐 Current Live Deployment
 
-### 🌐 Production Demo
+### Production Demo
 
-**https://jobfind-ai-1sk7.onrender.com/**
+**👉 https://jobfind-ai-1sk7.onrender.com/**
 
 The project is currently deployed and publicly accessible for demonstration.
 
@@ -560,12 +564,14 @@ Use market insights to guide career decisions.
 # 🔮 Future Roadmap
 
 ## Phase 1 — Frontend Analytics
+
 - [x] SaaS dashboard UI
 - [x] Responsive interface
 - [x] Interactive visualizations
 - [x] Job exploration experience
 
 ## Phase 2 — Backend
+
 - [ ] Node.js API
 - [ ] Express.js services
 - [ ] PostgreSQL database
@@ -573,6 +579,7 @@ Use market insights to guide career decisions.
 - [ ] Redis caching
 
 ## Phase 3 — Intelligence
+
 - [ ] AI career assistant
 - [ ] Resume analyzer
 - [ ] Job recommendation engine
@@ -580,6 +587,7 @@ Use market insights to guide career decisions.
 - [ ] Skill recommendation engine
 
 ## Phase 4 — Real-Time Platform
+
 - [ ] Live job-data pipelines
 - [ ] Automated data collection
 - [ ] WebSocket notifications
@@ -609,7 +617,7 @@ JobFind AI demonstrates practical experience with:
 
 # 💡 What This Project Demonstrates
 
-From a software-engineering perspective, JobFind AI demonstrates the ability to design a modern product around a real-world problem rather than building only a basic CRUD application.
+JobFind AI demonstrates the ability to design a modern software product around a real-world problem rather than building only a basic CRUD application.
 
 The architecture focuses on:
 
@@ -641,9 +649,29 @@ Actionable Career Decisions
 
 ---
 
+# 👨‍💻 Developer
+
+<div align="center">
+
+### **Er. Pankaj Kumar**
+
+**Software Developer | Full-Stack & AI Application Development**
+
+JobFind AI is designed, developed, and maintained by **Er. Pankaj Kumar**.
+
+</div>
+
+---
+
 # 📄 License
 
-This project is intended for educational, portfolio, and demonstration purposes.
+This project is protected under a **Proprietary License**.
+
+**Copyright © 2026 Er. Pankaj Kumar. All Rights Reserved.**
+
+The source code may be viewed for educational and portfolio evaluation purposes. Copying, redistribution, commercial use, republishing, or claiming the project as one's own is not permitted without prior written permission.
+
+See the [`LICENSE`](LICENSE) file for complete terms.
 
 ---
 
@@ -653,6 +681,11 @@ This project is intended for educational, portfolio, and demonstration purposes.
 
 **Modern Job Market Analytics • Data Visualization • AI Insights**
 
-**Built with React, TypeScript & Modern Web Technologies**
+**Developed & Maintained by Er. Pankaj Kumar**
+
+<br>
+
+🌐 **Live Demo:**  
+https://jobfind-ai-1sk7.onrender.com/
 
 </div>
